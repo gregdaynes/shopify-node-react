@@ -1,0 +1,10 @@
+authtoken:
+console_ui: iftty
+console_ui_color: transparent
+region: us
+tunnels:
+  node-react:
+    addr: 3000
+    proto: http
+    host_header: node-react.dev
+    subdomain: node-react
