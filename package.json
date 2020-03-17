@@ -4,14 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.1.57",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.11.0",
+    "koa-session": "^5.13.1",
     "next": "^9.3.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
+    "dev": "node src/server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node src/server.js"
   }
 }
