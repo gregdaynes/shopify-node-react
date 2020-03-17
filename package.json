@@ -17,6 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node src/server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node src/server.js"
+    "start": "NODE_ENV=production node src/server.js",
+    "ngrok": "ngrok start --config ngrok.yml --all"
   }
 }
