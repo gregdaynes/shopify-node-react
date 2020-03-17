@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@shopify/app-bridge-react": "^1.19.0",
     "@shopify/koa-shopify-auth": "^3.1.57",
+    "@shopify/polaris": "^4.16.0",
+    "@zeit/next-css": "^1.0.1",
     "dotenv": "^8.2.0",
     "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
     "koa": "^2.11.0",
     "koa-session": "^5.13.1",
     "next": "^9.3.0",
@@ -19,5 +23,12 @@
     "build": "next build",
     "start": "NODE_ENV=production node src/server.js",
     "ngrok": "ngrok start --config ngrok.yml --all"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "^1.19.1"
   }
 }
